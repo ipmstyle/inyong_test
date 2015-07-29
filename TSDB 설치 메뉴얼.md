@@ -61,7 +61,7 @@ master running as process (process number). Stop it first
 ```
 ※When " hbase.sh " run, If this is notification because the setting of the 'java_home JDK' is not successful,
   Run a " profile " again ($ source /etc/profile)
-  ### GnuPlot Install
+### GnuPlot Install
   ```sh
 $ cd /usr/local
 $ apt-get install gcc
@@ -100,7 +100,7 @@ $ cd tcollector
 ```sh
 $ nano startstop
 ```
-Please comment cancel the portion of the '#TSD_HOST=dns.name.of.tsd' and Enter the Ip address.(4~5 line)
+Please comment cancel the portion of the '#TSD_HOST=dns.name.of.tsd' and Enter the your PC ip address.(maybe 4~5 line)
 ```sh
 TSD_HOST=192.168.X.X
 ```
