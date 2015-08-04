@@ -40,7 +40,7 @@ Query OK, 0 rows affected (0.00 sec)
 $ sudo vim /etc/mysql/my.cnf
 ```
 파일 내용 중
-bind-address = 172.0.0.1  
+bind-address = 127.0.0.1  
 부분 주석처리 후 저장하기
 
 ##### mysql 재시작
