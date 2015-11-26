@@ -49,7 +49,7 @@ configuration Add to between the tags
 		<value>file:///DIRECTORY/hbase</value>
 	</property>
 	<property>
-		<name>hbase.zookp.property.eataDir</name>
+		<name>hbase.zookeeper.property.dataDir</name>
 		<value>/DRECTORY/zookeeper</value>
 	</property>
 </configuration>
